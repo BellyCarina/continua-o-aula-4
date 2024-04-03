@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px yellow;
+    background: linear-gradient(rgba(198, 142, 22, 0.906));
+    background-image: url(1130_Mario_layout_site.webp);
+}
+#d1{
+    width: 100px; /*largura*/
+    height: 75px;/*altura*/
+    background-color: rgb(15, 142, 215);/*cor da ft*/
+    color:rgb(7, 7, 7);/*cor da letra*/
+    border: 5px solid red; /* solid bord*/
+    margin-left: auto;/*imagem automatica esqueda*/
+    margin-right: auto;/*imagem automatica direita*/
+    margin: top 30px ;
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(35deg);  
+    animation: teste 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; 
+}
+d2{
+    width: 100px;/*largura*/;
+    height: 75px; /*altura*/;
+    background-color: rgb(15, 142, 215);/*cor do fundo*/;
+    color: rgb(16, 16, 16);/*cor da letra*/
+    border: 5px solid red;/*solid bord*/;
+    margin-left: auto;/*largura*/
+    margin-right: auto;/*largura*/
+    margin: top 30px; /* largura*/
+    transform: rotate(30deg); /*largura*/
+    -ms-transform: rotate(30deg);/*largura*/
+    -webkit-transform: rotate(35deg); /*largura*/
+    animation: teste 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+#d3{
+    width: 130px/*largura*/;
+    height: 130px /*altura*/;
+    background-color: rgb(15, 142, 215);/*cor do fundo*/;
+    color: rgb(20, 21, 21);/*cor da letra*/
+    border: 5px solid red;/*solid bord*/;
+    margin-left: auto;/*largura*/
+    margin-right: auto;/*largura*/
+    margin: top 30px; /* largura*/
+    
+    transform: rotate(30deg); /*largura*/
+    -ms-transform: rotate(30deg);/*largura*/
+    -webkit-transform: rotate(35deg); /*largura*/
+    border-style: dashed;/*borda tracejada*/
+    /*ponto flutuante*/
+    float: none;/*nome=n flutua,right,left*/
+
+    animation: teste 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    /*posicionamento*/
+    /*position flend, fixo*/
+    /*position:relative altera posição do elemento usa top left para alterar da posição atual para a nova*/
+    /*position: absolut, sera posicionado a partir do canto esquerdo usa top bottom left rigth para nova posição*/
+    /*position: sticky; parecido com o fixo porem fica fixo em relação a barra de rolagem e na tela*/
+    /*position: static; deixa o elemento estatico,não aceita argumentos com left bottom etc*/
+}
+#d4{
+    width:140px;
+    height: 70px;
+    background-color: rgb(15, 142, 215);
+    color: rgb(17, 18, 18);
+    margin-left: auto;/*imagem automatica a esquerda,direita e para cima*/
+    margin-right: auto;
+    margin: top 30px; 
+    border-style: groove;
+    border: 5px solid red; /* solid bord*/
+
+    animation: teste 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes teste {
+   from{box-shadow: 10px 10px 10px black }
+   to{box-shadow: 10px 10px 10px rgb(114, 141, 15)}
+}
+img{
+    display: inline-block;/*org*/
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    animation: teste 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite
+}
